@@ -86,13 +86,13 @@ class GameStart
 
     # 変数「next_game」に「true」を代入しましょう。
     # 「next_game」が「false」だと繰り返し処理を終了し、「true」だと繰り返し処理を継続します。
-    while next_game
+    # while next_game
       # J'utilise des roche papier ciseaux avec "janken.pon (player.hand, ennemi.hand)".
       #「janken.pon(player.hand, enemy.hand)」でじゃんけんを実行しています。
       janken.pon(player.hand, enemy.hand)
 
-      puts "_____________________________________________\n\n"
-    end
+      # puts "_____________________________________________\n\n"
+    # end
   end
 end
 
